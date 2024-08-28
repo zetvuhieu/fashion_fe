@@ -1,0 +1,33 @@
+/* Đổi màu nút Prev */
+.slick-prev {
+  left: 10px; /* Điều chỉnh khoảng cách từ bên trái */
+  z-index: 1; /* Đảm bảo nút nằm trên cùng */
+  border-radius: 50%; /* Làm cho nút hình tròn */
+  color: #fff; /* Màu của biểu tượng */
+  width: 50px; /* Kích thước của nút */
+  height: 50px; /* Kích thước của nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Đổi màu nút Next */
+.slick-next {
+  right: 10px; /* Điều chỉnh khoảng cách từ bên phải */
+  z-index: 1; /* Đảm bảo nút nằm trên cùng */
+  border-radius: 50%; /* Làm cho nút hình tròn */
+  color: #fff; /* Màu của biểu tượng */
+  width: 50px; /* Kích thước của nút */
+  height: 50px; /* Kích thước của nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: "transparent";
+}
+
+/* Đổi màu khi hover vào nút */
+.slick-prev:hover,
+.slick-next:hover {
+  color: #fff; /* Màu của biểu tượng khi hover */
+  background-color: rgba(0, 0, 0, 0.8); /* Màu nền khi hover */
+}
